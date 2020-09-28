@@ -1,0 +1,11 @@
+	
+		**************************
+		*			 *
+		*    Country    Code     *
+		*    Australia  AUS      *
+		*    Bangladesh BAN      *
+		*    Nepal      NEP      *
+		*    India      IND      *
+		*    England    ENG      *
+		*			 *
+		**************************

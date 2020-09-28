@@ -1,0 +1,10 @@
+*********************************
+*				*
+*	Player        Code	*
+*	Paras Khadka  PK	*
+*	Virat Kohli   VK	*
+*	David Warner  DW	*
+*	Ben Strokes   BS	*
+*	Ross Taylor   RT	*
+*				*
+*********************************

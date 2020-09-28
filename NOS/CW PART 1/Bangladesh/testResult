@@ -1,0 +1,36 @@
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff–ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff–ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff–ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff–ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+cat testX - testY >> testResult appends testResult file. 
+It updates the existing file.
+It is very useful command for updating the existing file
+
