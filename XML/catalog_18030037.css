@@ -1,0 +1,174 @@
+/*setting background color to darkgray*/
+vehicleShop{
+    background-color: darkgray;
+}
+
+/*providing styling to logo*/
+logo{
+	background: url("logo.png");
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 300px;
+	display: block;
+	margin-top: -60px;
+    background-size: 95%;
+    position: absolute;
+}
+
+shopDetail{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    font-family: Impact ;
+    padding-bottom: 8%;;
+}
+
+#middle{
+    font-size: 50px;
+    color: rgb(48, 35, 36);
+    text-decoration-line: underline;
+}
+
+#country{
+    font-size:80px;
+    color: red;
+}
+
+#country,#city,#state,#telephone,#shopNo,#email{
+      display: block;
+      font-family: ink free;
+}
+
+itemForSale{
+    margin-top: 30px;
+}
+
+/*creating list*/
+color, exterior, interior,performance,maximumSpeed,maximumPower,maximumTorque,engine,engineCapacity,type{
+    display: list-item;
+    list-style-position: inside;
+	list-style-type: disc;
+}
+
+itemNumber,manufacturer,modelName,carType,color,performance,engine,quantity,price{  
+    float: right;
+    width: 50%;
+    display:block;
+}
+
+img1{
+    background: url("McLaren.jpg");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 450px;
+    background-size: 100%;
+    display: block;
+    float: left;
+  }
+  [carNo$="c1"]{
+	border: solid black;
+	display: block;
+	padding: 2%;
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+
+img2{
+    background: url("mclarenSenna.jpg");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 450px;
+    background-size: 100%;
+    display: block;
+    float: left;
+    margin-left: -400px;
+}
+[carNo$="c2"]{
+	border: solid black;
+	display: block;
+	padding: 2%;
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+
+img3{
+    background: url("aston.jpg");
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 450px;
+    background-size: 100%;
+    display: block;
+    float: left;
+    margin-left: -400px;
+}
+[carNo$="c3"]{
+	border: solid black;
+	display: block;
+	padding: 2%;
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+
+
+img4{
+    background: url("range.jpg");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 450px;
+    background-size: 100%;
+    display: block;
+    float: left;
+    margin-left: +100px;
+}
+
+[carNo$="c4"]{
+	border: solid black;
+	display: block;
+	padding: 2%;
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+
+img5{
+    background: url("hyundai.jpg");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 450px;
+    background-size: 100%;
+    display: block;
+    float: left;
+    margin-left: -400px;
+}
+[carNo$="c5"]{
+	border: solid black;
+	display: block;
+	padding: 2%;
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+
+img6{
+    background: url("audi.jpg");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 450px;
+    background-size: 100%;
+    display: block;
+    float: left;
+    margin-left: -410px;
+}
+[carNo$="c6"]{
+        border: solid black;
+        display: block;
+        padding: 2%;
+        display: block;
+        height: 300px;
+        width: 100%;
+}
+    
+

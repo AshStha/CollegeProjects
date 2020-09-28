@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="catalog_18030037.css" ?>
+<vehicleShop xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+ 		xs:noNamespaceSchemaLocation="catalog_18030037.xsd">
+    <shopDetail>
+        <logo></logo>
+        <name id="middle">Best Online Used Vehicle Shop</name>
+        <address>
+            <country id="country">Nepal</country>
+            <city id="city">Kathmandu</city>
+            <state id="state">State No: 3</state>
+            <street id="street"></street>
+            <zip id="zip"></zip>
+        </address>
+        <telephone id="telephone">014412929</telephone>
+        <mobile id="mobile"></mobile>
+        <shopNo id="shopNo">Shop No:1</shopNo>
+        <Email id="email">Email: bestonlineusedvehicle@gmail.com</Email>
+    </shopDetail>
+
+    <car>
+    <!--provides image with the help of css and information about car number 1-->
+        <itemsForSale carNo="c1">
+        <img1></img1>
+            <itemNumber>1</itemNumber>
+            <manufacturer>Manufacturer: McLaren</manufacturer>
+            <modelName >Brand Name: McLaren 720S</modelName>
+            <carType>Car Type: Fuel</carType>
+            <color>Color:
+                <exterior>Exterior Color: Orange</exterior>
+                <interior>Interior Color: Black</interior>
+            </color>
+            <performance>Performance:
+                <maximumSpeed>Maximum Speed: 341kph (212mph)</maximumSpeed>
+                <maximumPower>Maximum Power: 720PS (710bhp)</maximumPower>
+                <maximumTorque>Maximum Torque: 770Nm (568lbft)</maximumTorque>
+            </performance>
+            <engine>Engine:
+                <engineCapacity>Engine Capacity: 3994cc</engineCapacity>
+                <type>Type: V8, 4.0L</type>
+            </engine>
+            <quantity>Quantiy: 1</quantity>
+            <price>Price: Rs 24,000,000</price>
+        </itemsForSale>
+     
+
+        <itemsForSale carNo="c2">
+        <!--provides image with the help of css and information about car number 2-->
+            <img2></img2>
+            <itemNumber>2</itemNumber>
+            <manufacturer>Manufacturer: McLaren</manufacturer>
+            <modelName>Brand Name: McLaren Senna</modelName>
+            <carType>Car Type: Fuel</carType>
+            <color>Color:
+                <exterior>Exterior Color: Black</exterior>
+                <interior>Interior Color: Black</interior>
+            </color>
+            <performance>Performance:
+                <maximumSpeed>Maximum Speed: 335kph (208mph)</maximumSpeed>
+                <maximumPower>Maximum Power: 800PS (789bhp)</maximumPower>
+                <maximumTorque>Maximum Torque: 800Nm (590lbft)</maximumTorque>
+            </performance>
+            <engine>Engine:
+                <engineCapacity>Engine Capacity: 3994cc</engineCapacity>
+                <type>Type: V8, 4.0L</type>
+            </engine>
+            <quantity>Quantiy: 1</quantity>
+            <price>Price:  $1 million</price>
+        </itemsForSale>
+
+        <itemsForSale carNo="c3">
+        <!--provides image with the help of css and information about car number 3-->
+            <img3></img3>
+            <itemNumber>3</itemNumber>
+            <manufacturer>Manufacturer: Aston Martin</manufacturer>
+            <modelName>Brand Name: Aston Martin DB11</modelName>
+            <carType>Car Type: Gasoline Direct Injection</carType>
+            <color>Color:
+            <exterior>Exterior Color: Metallic Orange</exterior>
+            <interior>Interior Color: Black</interior>
+            </color>
+            <performance>Performance:
+                <maximumSpeed>Maximum Speed: 335kph (208mph)</maximumSpeed>
+                <maximumPower>Maximum Power: 800PS (498lb-ft)</maximumPower>
+                <maximumTorque>Maximum Torque: 516 lb-ft</maximumTorque>
+            </performance>
+            <engine>Engine:
+                <engineCapacity>Engine Capacity: 5204cc</engineCapacity>
+                <type>Type: V8, 4.0L</type>
+            </engine>
+            <quantity>Quantiy: 1</quantity>
+            <price>Price:  $241,000</price>
+        </itemsForSale>
+
+
+        <itemsForSale carNo="c4">
+        <!--provides image with the help of css and information about car number 4-->
+            <img4></img4>
+            <itemNumber>4</itemNumber>
+            <manufacturer>Manufacturer: Land Rover</manufacturer>
+            <modelName>Brand Name: 2020 Land Rover Range Rover Specs</modelName>
+            <carType>Car Type:Fuel</carType>
+            <color>Color:
+                <exterior>Exterior Color: White</exterior>
+                <interior>Interior Color: Black</interior>
+            </color>
+            <performance>Performance:
+                <maximumSpeed>Maximum Speed: 130 mph</maximumSpeed>
+                <maximumPower>Maximum Power: 575 @ 6000rpm</maximumPower>
+                <maximumTorque>Maximum Torque: 516 lb-ft</maximumTorque>
+            </performance>
+            <engine>Engine:
+                <engineCapacity>Engine Capacity: 1999 cc</engineCapacity>
+                <type>Type: V8, 4.0L</type>
+            </engine>
+            <quantity>Quantiy: 1</quantity>
+            <price>Price:  $114,500</price>
+        </itemsForSale>
+
+        <itemsForSale carNo="c5">
+        <!--provides image with the help of css and information about car number 5-->
+            <img5></img5>
+            <itemNumber>5</itemNumber>
+            <manufacturer>Manufacturer: Hyundai</manufacturer>
+            <modelName>Brand Name: 2020 Hyundai Ioniq</modelName>
+            <carType>Car Type:Regular Unleaded</carType>
+            <color>Color:
+                <exterior>Exterior Color: White</exterior>
+                <interior>Interior Color: Black</interior>
+            </color>
+            <performance>Performance:
+                <maximumSpeed>Maximum Speed: 130 mph</maximumSpeed>
+                <maximumPower>Maximum Power: 139hp </maximumPower>
+                <maximumTorque>Maximum Torque: 109 lb-ft</maximumTorque>
+            </performance>
+            <engine>Engine:
+                <engineCapacity>Engine Capacity: 1598 cc</engineCapacity>
+                <type>Type: I4 1.6L</type>
+            </engine>
+            <quantity>Quantiy: 1</quantity>
+            <price>Price:  $24,155</price>
+        </itemsForSale>
+        
+        <itemsForSale carNo="c6">
+        <!--provides image with the help of css and information about car number 6-->
+            <img6></img6>
+            <itemNumber>6</itemNumber>
+            <manufacturer>Manufacturer: Audi</manufacturer>
+            <modelName>Brand Name: 2020 Audi A6</modelName>
+            <carType>Car Type:Regular Unleaded</carType>
+            <color>Color:
+                <exterior>Exterior Color: White</exterior>
+                <interior>Interior Color: Black</interior>
+            </color>
+            <performance>Performance:
+                <maximumSpeed>Maximum Speed: 130 mph</maximumSpeed>
+                <maximumPower>Maximum Power: 248hp </maximumPower>
+                <maximumTorque>Maximum Torque: 273 lb-ft</maximumTorque>
+            </performance>
+            <engine>Engine:
+                <engineCapacity>Engine Capacity: ‎1984 cc</engineCapacity>
+                <type>Type: V6 3L</type>
+            </engine>
+            <quantity>Quantiy: 1</quantity>
+            <price>Price: $54,900</price>
+        </itemsForSale>
+    </car>
+    <footer>&#169; Best Online Used Vehicle Shop</footer>
+</vehicleShop>
+

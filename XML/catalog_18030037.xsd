@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="vehicleShop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="shopDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="logo" />
+              <xs:element name="name">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="country">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="id" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="city">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="id" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="state">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="id" type="xs:string" use="optional" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="street">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="zip">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="telephone">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:integer">
+                      <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="mobile">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="shopNo">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="id" type="xs:string" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Email">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="id" type="xs:string" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="car">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="itemsForSale">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="img6" />
+                    <xs:element minOccurs="0" name="img5" />
+                    <xs:element minOccurs="0" name="img4" />
+                    <xs:element minOccurs="0" name="img3" />
+                    <xs:element minOccurs="0" name="img2" />
+                    <xs:element minOccurs="0" name="img1" />
+                    <xs:element name="itemNumber" type="xs:integer" />
+                    <xs:element name="manufacturer" type="xs:string" />
+                    <xs:element name="modelName" type="xs:string" />
+                    <xs:element name="carType" type="xs:string" />
+                    <xs:element name="color">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="exterior" type="xs:string" />
+                          <xs:element name="interior" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="performance">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="maximumSpeed" type="xs:string" />
+                          <xs:element name="maximumPower" type="xs:string" />
+                          <xs:element name="maximumTorque" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="engine">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="engineCapacity" type="xs:string" />
+                          <xs:element name="type" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="quantity" type="xs:string" />
+                    <xs:element name="price" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="carNo" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="footer" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
